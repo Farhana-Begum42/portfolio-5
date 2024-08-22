@@ -1,0 +1,131 @@
+*{
+    margin:1px;
+    padding:1px;
+
+    background: url(img/background.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+body{
+   color: black;
+
+}
+header{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    column-width: 4px;
+    margin-left: 65px;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 15px;
+    padding-left: 50px;
+    padding-right: 20px;
+    color:rgb(49, 48, 49);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+    position: sticky;
+    top: 10px;
+    left: 150px;
+    
+
+
+  }
+  li {
+    display:inline-block;
+    
+   
+  }
+  li a {
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(38, 224, 202);
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration:solid;
+    font-weight: 1000;
+    
+
+
+    
+  }
+  a:hover {
+    color: red;
+  }
+  li {
+    border: 1px solid #bbb;
+    border-radius: 12px;
+  }
+ #home .intro{
+ padding-left: 20px;
+ margin-left: 20px;
+ text-align: center;
+ color: rgba(0, 77, 100, 0.708);
+}
+#me{
+    color:rgb(60, 108, 154) ;
+    border-bottom: 20px;
+}
+  #home .intro img {
+    
+    position: absolute;
+    top: 8vh;
+    right: 20px;
+    width: 100px;
+}
+#mysself{
+   bottom: 20px;
+   padding-bottom: 10px;
+
+}
+#about{
+    padding-top: 5px;
+
+}
+.h2{
+    text-align: center;
+    color: chocolate;
+}
+.p1{
+    text-align:justify;
+    padding: 3px;
+    margin: 3px;
+}
+.ski .log{
+  display:flex;
+  flex-direction: row;
+
+
+}
+.project{
+  display:block;
+
+}
+.pro{
+  color: crimson;
+  text-align: center;
+}
+.proj{
+  box-align: center;
+  text-align: center;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+
+}
+.proj1{
+  width:45%;
+  margin-left:16%;
+
+}
+.contact{
+   color: black;
+
+   
+}
